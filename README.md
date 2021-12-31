@@ -3,11 +3,11 @@
 ## Project Overview
 A Colorado Election employee requested that the following audit tasks be completed for a local congressional election:
 
-- 1. Determine the total number of votes cast in the local election.
-- 2. Create a list of the candidates who received votes.
-- 3. Calculate the total votes for each candidate.
-- 4. Calculate the percentage of votes each candidate received.
-- 5. Determine the winner of the election based on the highest percentage of the popular vote.
+1. Determine the total number of votes cast in the local election.
+2. Create a list of the candidates who received votes.
+3. Calculate the total votes for each candidate.
+4. Calculate the percentage of votes each candidate received.
+5. Determine the winner of the election based on the highest percentage of the popular vote.
 
 ## Project Resources
 
