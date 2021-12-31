@@ -34,6 +34,6 @@ The audit showed the winner of the local congressional election to be **Diana De
 # Challenge Overview and Summary
 This challenge was the first to employ the use of Python programming. Python is an open-source computer programming language that is easy to understand because it uses the same syntax as English. This makes it easy to learn as well. Once the basic structure of the programming language is understood (data structure, decision statements, etc.) analyzing data with Python is fairly straightforward.
 
-Data analytics on the local congressional election audit started with importing and inspecting the raw data; pseudocoding allowed a map of the solution to be drawn.
+Data analytics on the local congressional election audit started with importing and inspecting the raw data. The process of pseudocoding allowed a map of the solution to be drawn which helped guide the coding for the project.
 
-One of the unique advantages to Python are the built-in dependencies, packages and modules that allow faster programming by use of pre-written code for Python. Exploring these resources was overwhelming but exemplified the power of Python as a community coding language.
+One of the unique advantages to Python are the built-in dependencies, packages and modules that allow faster programming by use of pre-written code for Python. Exploring these resources was overwhelming at first but exemplified the power of Python as a community coding language.
