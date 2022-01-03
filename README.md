@@ -18,11 +18,11 @@ The source data provided by the elections office is election_results.csv.
 
 This audit was perfomed using Python 3.7 and Visual Studio Code v1.63.2. 
 
-## Election-Audit Results (bulleted list for results with examples of code)
+## Election-Audit Results
 For each of the audit results, the code used to obtain the results from the data set follow the election results. 
 - The results of the audit of this local congressional elections showed a total of **369,711** votes cast. 
    - The code used to obtain the total votes was obtained by first zeroing the total_votes. Once the file was opened and read, the count for total_votes was incremented for each row in the source file. The header row was ignored to ensure an accurate count of total votes.
-(link to screen shot of code used)
+![Total Votes](https://github.com/Bsheinin/Election_Analyis/blob/main/Total%20votes%20code.png)
 
 - There were three counties contained in the data set. The total votes and percentage of votes by county were:
   - Jefferson County had 10.5% of the total votes with 38,355 votes cast.
@@ -33,7 +33,7 @@ For each of the audit results, the code used to obtain the results from the data
 ![Election Results](https://github.com/Bscheinin/Election_Analysis/blob/main/Resources/Voter%20Turnout%20Code.PNG)
 
 - The candidates, vote percentage and vote totals were:
-  -Charles Casper Stockham received 23.0% of the total votes with 85,213 votes.
+  - Charles Casper Stockham received 23.0% of the total votes with 85,213 votes.
   - Diana DeGette received 73.8% of the total votes with 272,892 votes.
   - Raymon Anthony Doane received 3.1% of the total votes with 11,606 votes.
 
