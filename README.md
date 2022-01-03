@@ -30,27 +30,25 @@ For each of the audit results, the code used to obtain the results from the data
 - - Arapahoe County had 6.7% of the votes with 24,801 votes cast.
 - In this congressional election, Denver County had the highest voter turnout.
 - - The code to determine voter turnout is shown below.
-(link to screenshot of voter turnout code used)
+![Election Results](https://github.com/Bscheinin/Election_Analysis/blob/main/Resources/Voter%20Turnout%20Code.PNG)
 
 - The candidates, vote percentage and vote totals were:
-
-- - Charles Casper Stockham received 23.0% of the total votes with 85,213 votes.
+-- Charles Casper Stockham received 23.0% of the total votes with 85,213 votes.
 - - Diana DeGette received 73.8% of the total votes with 272,892 votes.
 - - Raymon Anthony Doane received 3.1% of the total votes with 11,606 votes.
-(link to code used)
 
-The audit showed the winner of the local congressional election to be **Diana DeGette** with **73.8%** of the total votes by winning a total of **272,892** votes.
+- The audit showed the winner of the local congressional election to be **Diana DeGette** with **73.8%** of the total votes by winning a total of **272,892** votes.
 (link to code used)
 
 All results can be seen here in a screenshot of the program used to analyze the data:
-(link to screenshot).
+![Election Results](https://github.com/Bscheinin/Election_Analysis/blob/main/Resources/Election%20Results%20terminal%20screenshot.PNG)
 
 # Election-Audit Summary and Recommendations
-Python is an open-source computer programming language that is easy to understand as it uses the same syntax as English. The programming code used for this audit employed powerful dependencies, modules and packages within the Python program which allowed faster programming by use of pre-written code. In this audit, use of the `csv module` allows reading and writing tabular data while the `os module` allows interaction with the computer operating system to find the correct place to access and save data files. 
+Python is an open-source computer programming language that is easy to understand as it uses the same syntax as English. The programming code used for this audit employed powerful dependencies, modules and packages within the Python program which allowed faster programming by use of pre-written code. In this audit, use of the `csv module` allows reading and writing tabular data while the `os module` allows interaction with the computer operating system to find the correct place to access and save data files. By chaining these modules with the `(join)` function, access to the data file and the path in which to save the data was quickly determined.
 
 ![Import csv](https://github.com/Bscheinin/Election_Analysis/blob/main/Resources/Module%20code.PNG)
 
-By chaining these modules with the `(join)` function, access to the data file and the path in which to save the data was quickly determined. 
+ 
 
 Use of the powerful resources within Python such as dependencies, modules and packages, could allow access to and analysis of larger data sets such as representative races to state-wide presidential contests. (code modification examples)
 
