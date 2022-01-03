@@ -41,11 +41,14 @@ For each of the audit results, the code used to obtain the results from the data
 
 The audit showed the winner of the local congressional election to be **Diana DeGette** with **73.8%** of the total votes by winning a total of **272,892** votes.
 (link to code used)
+
 All results can be seen here in a screenshot of the program used to analyze the data:
 (link to screenshot).
 
 # Election-Audit Summary and Recommendations
-Python is an open-source computer programming language that is easy to understand as it uses the same syntax as English. The programming code used for this audit employed powerful dependencies, modules and packages within the Python program which allowed faster programming by use of pre-written code. In this audit, use of the csv module allows reading and writing tabular data while the os module allows interaction with the computer operating system to find the correct place to access and save data files. (link to code for "import csv"). By chaining these modules with the (join) function, access to the data file and the path in which to save the data was quickly determined. 
+Python is an open-source computer programming language that is easy to understand as it uses the same syntax as English. The programming code used for this audit employed powerful dependencies, modules and packages within the Python program which allowed faster programming by use of pre-written code. In this audit, use of the `csv module` allows reading and writing tabular data while the `os module` allows interaction with the computer operating system to find the correct place to access and save data files. 
+
+![Import csv](link to code for "import csv"). By chaining these modules with the `(join)` function, access to the data file and the path in which to save the data was quickly determined. 
 
 Use of the powerful resources within Python such as dependencies, modules and packages, could allow access to and analysis of larger data sets such as representative races to state-wide presidential contests. (code modification examples)
 
