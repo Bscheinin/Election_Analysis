@@ -42,6 +42,7 @@ For each of the audit results, the code used to obtain the results from the data
 - ![Winning Candidate](https://github.com/Bscheinin/Election_Analysis/blob/main/Resources/Winning%20candidate.PNG)
 
 All results can be seen here in a screenshot of the program used to analyze the data:
+
 ![Election Results](https://github.com/Bscheinin/Election_Analysis/blob/main/Resources/Election%20Results%20terminal%20screenshot.PNG)
 
 # Election-Audit Summary and Recommendations
@@ -49,7 +50,44 @@ Python is an open-source computer programming language that is easy to understan
 
 ![Import csv](https://github.com/Bscheinin/Election_Analysis/blob/main/Resources/Module%20code.PNG)
 
- 
+Use of the powerful resources within Python such as dependencies, modules and packages, could allow access to and analysis of larger data sets such as representative races to state-wide presidential contests. By simply accessing a new data source file, the audit analysis can be expanded based on the new data source. For example, Using
+```
+#Add a varibale to load a file from a path.
+file_to_laod - os.path.join("Resources", "all_state_election_results.csv")
+```
 
-Use of the powerful resources within Python such as dependencies, modules and packages, could allow access to and analysis of larger data sets such as representative races to state-wide presidential contests. (code modification examples)
+The statistic requested was to find the county with the highest voter turnout (which was found to be Denver). However, another intereting statistic is to find the percentage of votes in a county that voted in this election. This requires have a data source for the total number of registered voters in Colorado by county, that variable will be total_registered_voters.csv. This code may be used to obtain this percentage which may be more insightful than just knowing the number of votes in relation to the total voters.
+```
+# 1: Track the county with the largest turnout by registered voters.
+winning_county = ""
+voting_voters = 0
+winning_voters_percentage = 0
+    # 2: Write a for loop to get the county from the county dictionary.
+    for county_name in county_votes:
+        # 2b: Retrieve the county vote count.
+        county_total = county_votes.get(county_name)
+        # 2c: Calculate the percentage of votes for the county.
+        county_percentage = float(registered_voter_total) / float(county_votes) * 100
+        county_results = (
+            f"{county_name}: {voting_voters:.1f}% ({county_total:,})\n")
+         # 2d: Print the county results to the terminal.
+        print(turnout_results)
+         # 2e: Save the county votes to a text file.
+        txt_file.write(turnout_results)
+         # 6f: Write an if statement to determine the county with the highest percentage of voters in this election.
+        if(county_total > winning_vote_total) and (county_percentage > winning_vote_percentage):
+            winning_vote_total = county_total
+            winning_county = county_name
+            county_percentage = winning_vote_percentage
+
+
+
+
+
+
+
+
+
+
+(code modification examples)
 
