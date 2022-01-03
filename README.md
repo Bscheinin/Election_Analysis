@@ -75,5 +75,6 @@ voters_percentage = 0
         print(turnout_results)
          # 2e: Save the county votes to a text file.
         txt_file.write(turnout_results)
+```
 
-This code could be modified to find the county with the highest turnout of registered voters.
+This code could also be modified to find the county with the highest turnout of registered voters.
